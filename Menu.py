@@ -1,5 +1,8 @@
 from Tecnologia import Tecnologia
-from Consola import Consola   
+from Consola import Consola
+from Tv import Tv
+from Scooter import Scooter
+from Bicicleta import Bicicleta
 
 
 while True:
