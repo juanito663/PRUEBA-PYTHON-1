@@ -8,7 +8,7 @@ class Scooter(Tecnologia,Transporte):
 
 
     def costoDespachoBicicleta(self):
-        valorKilogramoBicicleta = 400
+        valorKilogramoBicicleta = 300
         CostoDespachoFinalBicicleta = valorKilogramoBicicleta * self.__peso
         costofinal = CostoDespachoFinalBicicleta + self.__precio
         print(f"${costofinal}")
