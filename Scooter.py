@@ -6,4 +6,10 @@ class Scooter(Tecnologia,Transporte):
         Tecnologia.__init__()
         Transporte.__init__()
 
+
+    def costoDespachoBicicleta(self):
+        valorKilogramoBicicleta = 400
+        CostoDespachoFinalBicicleta = valorKilogramoBicicleta * self.__peso
+        costofinal = CostoDespachoFinalBicicleta + self.__precio
+        print(f"${costofinal}")
     

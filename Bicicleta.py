@@ -1,4 +1,3 @@
-from typing_extensions import Self
 from Transporte import Transporte
 
 class Bicicleta(Transporte):
@@ -32,6 +31,13 @@ class Bicicleta(Transporte):
     
     def set_marca(self,marca):
         self.__marca = marca
+
+    
+    def costoDespachoBicicleta(self):
+        valorKilogramoBicicleta = 400
+        CostoDespachoFinalBicicleta = valorKilogramoBicicleta * self.__peso
+        costofinal = CostoDespachoFinalBicicleta + self.__precio
+        print(f"${costofinal}")
     
 
 
